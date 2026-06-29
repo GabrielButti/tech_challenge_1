@@ -73,11 +73,6 @@ dist/
 .coverage
 htmlcov/
 
-# ==========================
-# Modelos treinados (opcional)
-# ==========================
-models/*.pkl
-
 # Caso queira versionar os modelos,
 # basta remover a linha acima.
 
