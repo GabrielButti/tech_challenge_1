@@ -1,0 +1,98 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# PyCharm
+# ==========================
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Coverage
+# ==========================
+.coverage
+htmlcov/
+
+# ==========================
+# Modelos treinados (opcional)
+# ==========================
+models/*.pkl
+
+# Caso queira versionar os modelos,
+# basta remover a linha acima.
+
+# ==========================
+# Dados grandes (opcional)
+# ==========================
+data/raw/
+data/interim/
+
+# Caso a base possa ser compartilhada,
+# remova essas linhas.
+
+# ==========================
+# Arquivos temporários
+# ==========================
+*.tmp
+*.bak
+*.swp
